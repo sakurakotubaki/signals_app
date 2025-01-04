@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:signals_app/http_view.dart';
+import 'package:signals_app/lesson01/http_view.dart';
 
 void main() {
   runApp(const MyApp());

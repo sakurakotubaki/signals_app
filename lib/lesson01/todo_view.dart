@@ -38,7 +38,7 @@ class TodoView extends StatelessWidget {
                     value: todo.completed,
                     onChanged: (value) {
                       // nullを返さないようにする
-                      if(value != null) {
+                      if (value != null) {
                         todos[index] = (label: todo.label, completed: value);
                       }
                     },
